@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css" />
+    <script src="../scripts/scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <title>ICC Cricket</title>
+    <link rel="icon" 
+     type="image/png" 
+     href="../assets/ICC Men’s T20 World Cup 2024 png logo.png">
+  </head>
+  <body>
+
+<!------------------------------------------------------------------------- GAME-TILES ---------------------------------------------------------------------->
+
+    <header>
+      <div class="canvas-container">
+        <div class="gameTile" id="Game1">
+          <div>
+            <p  class="title-gameTile" > 05.09.2024 - ICC Men's T20 World Cup Asia Qualifier A, 2024 - Match 15 </p>
+            <div class="flagsMYA" style="margin: 10px">
+              <img src="../assets/MYA.png" class="img-style" />
+              <p style="margin: 5px; padding-bottom: 0px; display: inline-flex"> MYA </p>
+              <p style="text-align: right; display: inline; padding-left: 44px"> 51(17.0) </p>
+            </div>
+            <div class="flagsMDV" style="margin: 10px">
+              <img src="../assets/MDV.png" class="img-style"/>
+              <p style="margin: 5px; padding-bottom: 0px; display: inline-flex"> MDV </p>
+              <p style="text-align: right; display: inline; padding-left: 30px"> 52/1(5.3) </p>
+              <p style="font-size: 11px">Maldives beat Myanmar by 9 </p>
+            </div>
+          </div>
+          <div>
+            <p class="T20I-Title"> T20I </p>
+            <p class="recent-Title"> RECENT </p>
+            <!-- <div class="score" style="display: table;"><p>51(17.0)</p></div> -->
+          </div>
+        </div>
+        <div class="gameTile" id="Game2">
+          <div style="display: table; height: 100px">
+            <p class="title-gameTile"> 05.09.2024 - ICC Men's T20 World Cup Asia Qualifier A, 2024 - March 14 </p>
+            <div class="flagsMYA" style="margin: 10px">
+              <img src="../assets/MNG.png" class="img-style"/>
+              <p style="margin: 5px; padding-bottom: 0px; display: inline-flex"> MNG </p>
+              <p style="text-align: right; display: inline; padding-left: 44px"> 10(10.0) </p>
+            </div>
+            <div class="flagsMDV" style="margin: 10px">
+              <img src="../assets/SIN.png" class="img-style"/>
+              <p style="margin: 5px; padding-bottom: 0px; display: inline-flex"> SIN </p>
+              <p style="text-align: right; display: inline; padding-left: 50px"> 13/1(0.5) </p>
+              <p style="font-size: 11px"> Singapore beat Mongolia by 9 </p>
+            </div>
+          </div>
+          <div style="display: table">
+            <p class="T20I-Title"> T20I </p>
+            <p class="recent-Title"> RECENT </p>
+            <!-- <div class="score" style="display: table;"><p>51(17.0)</p></div> -->
+          </div>
+        </div>
+        <div class="gameTile" id="Game3">
+          <div style="display: table; height: 100px">
+            <p class="title-gameTile"> 05.09.2024 - ICC Men's T20 World Cup Asia Qualifier A, 2024 - Match 13 </p>
+            <div class="flagsMYA" style="margin: 10px">
+              <img src="../assets/KUW.png" class="img-style"/>
+              <p style="margin: 5px; padding-bottom: 0px; display: inline-flex"> KUW </p>
+              <p style="text-align: right; display: inline; padding-left: 48px"> 150/2 </p>
+            </div>
+            <div class="flagsMDV" style="margin: 10px">
+              <img src="../assets/MAS.png" class="img-style"/>
+              <p style="margin: 5px; padding-bottom: 0px; display: inline-flex"> MAS </p>
+              <p style="text-align: right; display: inline; padding-left: 50px"> 149/7 </p>
+              <p style="font-size: 11px">Kuwait beat Malaysia by 8 wickets</p>
+            </div>
+          </div>
+          <div style="display: table">
+            <p class="T20I-Title"> T20I </p>
+            <p class="recent-Title"> RECENT </p>
+            <!-- <div class="score" style="display: table;"><p>51(17.0)</p></div> -->
+          </div>
+        </div>
+        <div class="gameTile" id="Game4">
+          <div style="display: table; height: 100px">
+            <p class="title-gameTile"> 04.09.2024 - Australia tour of Scotland, 2024 - 1st T20I </p>
+            <div class="flagsMYA" style="margin: 10px">
+              <img src="../assets/SCO.png" class="img-style"/>
+              <p style="margin: 5px; padding-bottom: 0px; display: inline-flex"> SCO </p>
+              <p style="text-align: right; display: inline; padding-left: 44px"> 154/9 </p>
+            </div>
+            <div class="flagsMDV" style="margin: 10px">
+              <img src="../assets/AUS.png" class="img-style"/>
+              <p style="margin: 5px; padding-bottom: 0px; display: inline-flex"> AUS </p>
+              <p style="text-align: right; display: inline; padding-left: 50px"> 156/3 </p>
+              <p style="font-size: 11px"> Australia beat Scotland </p>
+            </div>
+          </div>
+          <div style="display: table">
+            <p class="T20I-Title"> T20I </p>
+            <p class="recent-Title"> RECENT </p>
+            <!-- <div class="score" style="display: table;"><p>51(17.0)</p></div> -->
+          </div>
+        </div>
+        <div class="gameTile" id="Game5">
+          <div style="display: table; height: 100px">
+            <p class="title-gameTile"> 03.09.2024 - ICC Men's T20 World Cup Asia Qualifier A, 2024 - Match 12 </p>
+            <div class="flagsMYA" style="margin: 10px">
+              <img src="../assets/SIN.png" class="img-style"/>
+              <p style="margin: 5px; padding-bottom: 0px; display: inline-flex"> SIN </p>
+              <p style="text-align: right; display: inline; padding-left: 64px"> 181/7 </p>
+            </div>
+            <div class="flagsMDV" style="margin: 10px">
+              <img src="../assets/MAS.png" class="img-style"/>
+              <p style="margin: 5px; padding-bottom: 0px; display: inline-flex"> MAS </p>
+              <p style="text-align: right; display: inline; padding-left: 50px"> 182/6 </p>
+              <p style="font-size: 11px">Malaysia beat Singapore by 1 run</p>
+            </div>
+          </div>
+          <div style="display: table">
+            <p class="T20I-Title"> T20I </p>
+            <p class="recent-Title""> RECENT </p>
+            <!-- <div class="score" style="display: table;"><p>51(17.0)</p></div> -->
+          </div>
+        </div>
+        <!-- <div class="gameTile" id="Game6">
+          <div style="display: table; height: 100px">
+            <p class="title-gameTile"> 03.09.2024 - ICC Men's T20 World Cup Asia Qualifier A, 2024 - Match 11 </p>
+            <div class="flagsMYA" style="margin: 10px">
+              <img src="../assets/MYA.png" class="img-style"/>
+              <p style="margin: 5px; padding-bottom: 0px; display: inline-flex"> MYA </p>
+              <p style="text-align: right; display: inline; padding-left: 53px"> 47/7 </p>
+            </div>
+            <div class="flagsMDV" style="margin: 10px">
+              <img src="../assets/KUW.png" class="img-style"/>
+              <p style="margin: 5px; padding-bottom: 0px; display: inline-flex"> KUW </p>
+              <p style="text-align: right; display: inline; padding-left: 50px"> 48/2 </p>
+              <p style="font-size: 11px">Kuwait beat Myanmar by 8 wickets</p>
+            </div>
+          </div>
+          <div style="display: table">
+            <p class="T20I-Title"> T20I </p>
+            <p class="recent-Title"> RECENT </p>
+          </div>
+        </div> -->
+      </div>
+
+<!------------------------------------------------------------------------- NAVBAR  ----------------------------------------------------------------------->
+
+      <div class="container">
+        <div class="background">
+          <div class="nav-bar">
+            <div class="logo">
+              <img class="logo-img" src="../assets/ICC Men’s T20 World Cup 2024 png logo.png" alt="SVG" />
+            </div>
+            <div class="main">
+              <!-- Navigation -->
+              <div class="search-bar" style="padding: 10px; display: flex; gap: 20px">
+                <a href="searchpage.html" class="search-bar" style="color: black">
+                  <img src="../assets/search-svgrepo-com.svg" height="25px" class="search-bar" style="padding-top: 4px" />
+                </a>
+                <a href="loginpage.html" class="search-bar" style="color: black">
+                  <img src="../assets/user-id-svgrepo-com.svg" height="30px" class="search-bar" />
+                </a>
+              </div>
+              <nav class="navBar">
+                <a href="#Home" class="in-navbar">HOME</a>
+                <a href="matches.html" class="in-navbar">MATCHES</a>
+                <a href="rankings.html" class="in-navbar">RANKINGS</a>
+                <a href="awards.html" class="in-navbar">PLAYERS</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+<!-------------------------------------------------------------------------PARAGRAPHS----------------------------------------------------------------------->
+
+    <div class="container">
+      <div style="border-bottom: 2px solid #bbbbbb; padding-bottom: 100px">
+        <div class="info" style="display: flex; justify-content: space-between">
+          <div class="left-container" style="text-align: left;">
+            <h1 class="container-title" style="width: 600px;"> All about cricket: updates, Stats, and Match Performances </h1>
+            <p class="container-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti velit, quidem quas illo distinctio. Asperiores modi doloremque voluptatem odio ullam nemo alias ex fugit fugiat, eos magni quis iure. </p>
+            <p class="container-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti velit, quidem quas illo distinctio. Asperiores modi doloremque voluptatem odio ullam nemo alias ex fugit fugiat, eos magni quis iure. </p>
+            <p class="container-text container-text--blue"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corrupti velit, quidem quas illo distinctio. Asperiores modi doloremque voluptatem odio ullam nemo alias ex fugit fugiat, eos magni quis iure. </p>
+          </div>
+          <div class="photo" style="text-align: right">
+            <img src="../assets/virat.jpg" width="95%" id="virat-photo" style="border-radius: 40px; margin-top: 30px; margin-right: 30px" />
+          </div>
+        </div>
+      </div>
+
+
+
+<!--------------------------------------------------------- MENS TEAM RANKING TABLE ----------------------------------------------------------------------->
+      <div class="men-ranking-container" style="padding-bottom: 100px;">
+
+        <h1 class="table-title">MEN'S TEAM RANKING</h1>
+        <div class="tables-wrapper">
+            <table id="table1" class="men-team-rank">
+                <thead id="table1" class="table-head">
+                    <tr>
+                        <th>TEST</th>
+                        <th>TEAMS</th>
+                        <th>POINTS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5</td>
+                        <td>NEW ZEALAND</td>
+                        <td>124</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>SOUTH AFRICA</td>
+                        <td>104</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>ENGLAND</td>
+                        <td>108</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>INDIA</td>
+                        <td>120</td>
+                    </tr>
+                    <tr class="numberOne">
+                        <td>1</td>
+                        <td>AUSTRALIA</td>
+                        <td>124</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table id="table2" class="men-team-rank">
+                <thead  class="table-head">
+                    <tr>
+                        <th>ODI</th>
+                        <th>TEAMS</th>
+                        <th>POINTS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5</td>
+                        <td>NEW ZEALAND</td>
+                        <td>101</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>PAKISTAN</td>
+                        <td>106</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>SOUTH AFRICA</td>
+                        <td>112</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>AUSTRALIA</td>
+                        <td>116</td>
+                    </tr>
+                    <tr class="numberOne">
+                        <td>1</td>
+                        <td>INDIA</td>
+                        <td>118</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table id="table3" class="men-team-rank">
+                <thead  class="table-head">
+                    <tr>
+                        <th>T20</th>
+                        <th>TEAMS</th>
+                        <th>POINTS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5</td>
+                        <td>NEW ZEALAND</td>
+                        <td>247</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>ENGLAND</td>
+                        <td>253</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>WEST INDIES</td>
+                        <td>255</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>AUSTRALIA</td>
+                        <td>256</td>
+                    </tr>
+                    <tr class="numberOne">
+                        <td>1</td>
+                        <td>INDIA</td>
+                        <td>267</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+    $('#table1').DataTable();
+    $('#table2').DataTable();
+    $('#table3').DataTable();
+    
+    // Hide specific DataTables elements
+    $('.dataTables_wrapper .dataTables_filter').hide();
+    $('.dataTables_wrapper .dataTables_length').hide();
+    $('.dataTables_wrapper .dataTables_info').hide();
+    $('.dataTables_wrapper .dataTables_paginate').hide();
+});
+
+    </script>
+
+    </div>
+    </div>
+
+<!--------------------------------------------------------- WOMENS TEAM RANKING TABLE ----------------------------------------------------------------------->
+
+    <div class="container">
+    <div class="men-ranking-container" >
+
+      <h1 class="table-title">WOMEN'S TEAM RANKING</h1>
+      <div class="tables-wrapper">
+          <table id="table1-women" class="men-team-rank" >
+              <thead  class="table-head">
+                  <tr>
+                      <th>T20</th>
+                      <th>TEAMS</th>
+                      <th>POINTS</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>5</td>
+                      <td>SOUTH AFRICA</td>
+                      <td>243</td>
+                  </tr>
+                  <tr>
+                      <td>4</td>
+                      <td>NEW ZEALAND</td>
+                      <td>252</td>
+                  </tr>
+                  <tr>
+                      <td>3</td>
+                      <td>INDIA</td>
+                      <td>261</td>
+                  </tr>
+                  <tr>
+                      <td>2</td>
+                      <td>ENGLAND</td>
+                      <td>285</td>
+                  </tr>
+                  <tr class="numberOne">
+                      <td>1</td>
+                      <td>AUSTRALIA</td>
+                      <td>294</td>
+                  </tr>
+              </tbody>
+          </table>
+          
+          <table id="table3-women" class="men-team-rank">
+              <thead  class="table-head">
+                  <tr>
+                      <th>ODI</th>
+                      <th>TEAMS</th>
+                      <th>POINTS</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>5</td>
+                      <td>NEW ZEALAND</td>
+                      <td>95</td>
+                  </tr>
+                  <tr>
+                      <td>4</td>
+                      <td>INDIA</td>
+                      <td>104</td>
+                  </tr>
+                  <tr>
+                      <td>3</td>
+                      <td>SOUTH AFRICA</td>
+                      <td>108</td>
+                  </tr>
+                  <tr>
+                      <td>2</td>
+                      <td>ENGLAND</td>
+                      <td>130</td>
+                  </tr>
+                  <tr class="numberOne">
+                      <td>1</td>
+                      <td>AUSTRALIA</td>
+                      <td>163</td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+      <div class="container bottom">
+        <p></p>
+      </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- DataTables JS -->
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+  <script>
+      $(document).ready(function() {
+  $('#table1-women').DataTable();
+  $('#table2-women').DataTable();
+  $('#table3-women').DataTable();
+  
+  // Hide specific DataTables elements
+  $('.dataTables_wrapper .dataTables_filter').hide();
+  $('.dataTables_wrapper .dataTables_length').hide();
+  $('.dataTables_wrapper .dataTables_info').hide();
+  $('.dataTables_wrapper .dataTables_paginate').hide();
+});
+
+  </script>
+</div>
+  
+     
+
+
+
+<!--------------------------------------------------------------------- FOOTER ------------------------------------------------------------------------------------->
+    
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social-icon">
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a></li>
+      </ul>
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+  
+      </ul>
+      <p>&copy;2021 ICC CRICKET | All Rights Reserved</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
