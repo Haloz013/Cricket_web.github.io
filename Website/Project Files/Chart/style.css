@@ -1,0 +1,9 @@
+.chart {
+  border-style: solid;
+border-color: #6b92c9;
+padding: 10px;
+  background: url("https://wallpaperaccess.com/full/5488362.jpg")
+  no-repeat center;
+background-size: cover;
+filter: brightness(120%)
+}

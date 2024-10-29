@@ -1,0 +1,147 @@
+<html> 
+
+  <head>
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.5/css/dataTables.dataTables.css" />
+    <link rel="stylesheet" type="text/css" href="tablestyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+  
+  <body>
+<table id="myTable" class="display" style="width:100%">
+  <thead id = heading>
+     <tr>
+        <th id = 'year'>Year</th>
+        <th>Winners</th>
+        <th>Margin Won By</th>
+        <th>Runners Up</th>
+        <th>Player of the Series</th>
+        <th>Top Run Scorer</th>
+        <th>Highest Wicket Taker</th>
+        <th id = 'host'>Host</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr id = 'row1'>
+        <td id = 'bottom-left' class = 'dates'>2024</td>
+        <td>India</td>
+        <td>7 runs</td>
+        <td>South Africa</td>
+        <td>Jasprit Bumrah</td>
+        <td>Rahmanullah Gurbaz</td>
+        <td>Fazalhaq Farooqi</td>
+        <td id = bottom-right>West Indies &amp; USA</td>
+    </tr>
+    <tr>
+        <td class = 'dates'>2022</td>
+        <td>England</td>
+        <td>5 wickets</td>
+        <td>Pakistan</td>
+        <td>Sam Curran</td>
+        <td>Virat Kohli</td>
+        <td>Wanindu Hasaranga</td>
+        <td>Australia</td>
+    </tr>
+    <tr>
+        <td class = 'dates'>2021</td>
+        <td>Australia</td>
+        <td>8 wickets</td>
+        <td>New Zealand</td>
+        <td>David Warner</td>
+        <td>Babar Azam</td>
+        <td>Wanindu Hasaranga</td>
+        <td>Oman &amp; UAE</td>
+    </tr>
+    <tr>
+        <td class = 'dates'>2016</td>
+        <td>West Indies</td>
+        <td>4 wickets</td>
+        <td>England</td>
+        <td>Virat Kohli</td>
+        <td>Tamim Iqbal</td>
+        <td>Mohammad Nabi</td>
+        <td>India</td>
+    </tr>
+    <tr>
+        <td class = 'dates'>2014</td>
+        <td>Sri Lanka</td>
+        <td>6 wickets</td>
+        <td>India</td>
+        <td>Virat Kohli</td>
+        <td>Virat Kohli</td>
+        <td>Ahsan Malik and Imran Tahir</td>
+        <td>Bangladesh</td>
+    </tr>
+    <tr>
+        <td class = 'dates'>2012</td>
+        <td>West Indies</td>
+        <td>36 runs</td>
+        <td>Sri Lanka</td>
+        <td>Shane Watson</td>
+        <td>Shane Watson</td>
+        <td>Ajantha Mendis</td>
+        <td>Sri Lanka</td>
+    </tr>
+    <tr>
+        <td class = 'dates'>2010</td>
+        <td>England</td>
+        <td>7 wickets</td>
+        <td>Australia</td>
+        <td>Kevin Pietersen</td>
+        <td>Mahela Jayawardene</td>
+        <td>Dirk Nannes</td>
+        <td>West Indies</td>
+    </tr>
+    <tr>
+        <td class = 'dates'>2009</td>
+        <td>Pakistan</td>
+        <td>8 wickets</td>
+        <td>Sri Lanka</td>
+        <td>Tillakaratne Dilshan</td>
+        <td>Tillakaratne Dilshan</td>
+        <td>Umar Gul</td>
+        <td>England</td>
+    </tr>
+    <tr>
+        <td class = 'dates'>2007</td>
+  
+        <td>India</td>
+        <td>5 runs</td>
+        <td>Pakistan</td>
+        <td>Shahid Afridi</td>
+        <td>Matthew Hayden</td>
+        <td>Umar Gul</td>
+        <td>South Africa</td>
+     
+    </tr>
+  </tbody>    
+        </tfoot>
+    </table>
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdn.datatables.net/2.1.5/js/dataTables.js"></script>
+  
+  <script>
+    
+    $(document).ready( function () {
+    $('#myTable').DataTable();
+      } );
+
+      new DataTable('#myTable', {
+      layout: {
+      topStart: null,
+      topEnd: null,
+      bottom: null,
+      bottomStart: null,
+      bottomEnd: null,
+      top: null,
+  }
+});
+    
+  </script>
+  
+  </body>
+
+
+
+</html>

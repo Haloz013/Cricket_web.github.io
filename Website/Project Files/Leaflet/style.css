@@ -1,0 +1,43 @@
+
+
+
+#map { 
+  height: 300px;
+  width: 600px;
+
+}
+
+.container{
+  padding-left: 17rem;
+  padding-right: 17rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  
+}
+
+.myTable{
+  padding-left: 17rem;
+  padding-right: 17rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+
+.button{
+  background-color: transparent; 
+  font-family: 'Poppins';
+  border: none;
+  color: #36454F;
+
+}
+
+.button:hover{
+  font-weight: bold;
+}
+
+.button.WUSA :hover{
+  background-color: transparent;
+  border: none;
+  color: #36454F;
+}
